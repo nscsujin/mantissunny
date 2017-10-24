@@ -10,7 +10,7 @@
     "viewissueislink": {
       "type": "action",
       "selector": "a[href*='/mantisbt/view_all_bug_page.php']",
-      "control": "exists"
+      "control": "action.link"
     }
   },
   "connect": [
