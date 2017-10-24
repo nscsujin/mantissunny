@@ -1,0 +1,24 @@
+{
+  "type": "object",
+  "properties": {
+    "ismyview": {
+      "type": "identifier",
+      "control": "exists",
+      "selectContains": "Assigned to Me",
+      "selector": ".subtle[href='view_all_set.php?type=1&temporary=y&handler_id=1&hide_status=80']"
+    },
+    "viewissueislink": {
+      "type": "action",
+      "selector": "a[href*='/mantisbt/view_all_bug_page.php']",
+      "control": "exists"
+    }
+  },
+  "connect": [
+    {
+      "match": [
+        "ismyview"
+      ],
+      "action": "viewissueislink"
+    }
+  ]
+}

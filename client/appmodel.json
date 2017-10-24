@@ -1,1 +1,139 @@
-{}
+{
+  "login": {
+    "type": "object",
+    "comment": "Login",
+    "properties": {
+      "username": {
+        "type": "string",
+        "label": "username",
+        "update": {
+          "type": "action",
+          "action": [
+            "submit"
+          ]
+        }
+      },
+      "password": {
+        "type": "string",
+        "label": "password",
+        "update": {
+          "type": "action",
+          "action": [
+            "submit"
+          ]
+        }
+      },
+      "errorMessage": {
+        "type": "string",
+        "label": "errorMessage",
+        "update": {
+          "type": "none"
+        }
+      },
+      "submit": {
+        "type": "action",
+        "parameters": {
+          "username": {
+            "type": "string"
+          },
+          "password": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  },
+  "viewissues": {
+    "type": "object",
+    "comment": "issueslist",
+    "properties": {
+      "issueslist": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string",
+              "update": {
+                "type": "none"
+              }
+            },
+            "summary": {
+              "type": "string",
+              "update": {
+                "type": "none"
+              }
+            },
+            "status": {
+              "type": "string",
+              "update": {
+                "type": "none"
+              }
+            },
+            "severity": {
+              "type": "string",
+              "update": {
+                "type": "none"
+              }
+            },
+            "assignedto": {
+              "type": "string",
+              "update": {
+                "type": "none"
+              }
+            },
+            "updated": {
+              "type": "string",
+              "update": {
+                "type": "none"
+              }
+            }
+          }
+        },
+        "update": {
+          "type": "none"
+        }
+      }
+    }
+  },
+  "viewtest": {
+    "type": "object",
+    "comment": "",
+    "properties": {
+      "testlist": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "ID": {
+              "type": "string",
+              "update": {
+                "type": "none"
+              }
+            },
+            "Status": {
+              "type": "string",
+              "update": {
+                "type": "none"
+              }
+            },
+            "Summary": {
+              "type": "string",
+              "update": {
+                "type": "none"
+              }
+            }
+          }
+        },
+        "update": {
+          "type": "none"
+        }
+      }
+    }
+  },
+  "reviewlist2": {
+    "type": "object",
+    "comment": "",
+    "properties": {}
+  }
+}
