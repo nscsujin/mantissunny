@@ -6,16 +6,6 @@
       "type": "select",
       "selector": "[name=\"category_id\"]",
       "control": "select"
-    },
-    "Description": {
-      "type": "string",
-      "control": "property.innerText",
-      "selector": "[name=\"description\"]"
-    },
-    "uploadfile": {
-      "type": "string",
-      "selector": "#ufile[]",
-      "control": "action.button"
     }
   },
   "connect": []
