@@ -13,6 +13,10 @@
         "label": "select3",
         "value": "3"
       }
-    ]
+    ],
+    "selected": {
+      "label": "select1",
+      "value": "1"
+    }
   }
 }
