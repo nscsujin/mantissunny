@@ -21,5 +21,14 @@
       "control": "exists"
     }
   },
-  "connect": []
+  "connect": [
+    {
+      "match": [
+        "isreportissue"
+      ],
+      "screens": [
+        "reportissue"
+      ]
+    }
+  ]
 }
