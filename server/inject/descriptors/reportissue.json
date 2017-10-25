@@ -8,5 +8,13 @@
       "control": "select"
     }
   },
-  "connect": []
+  "connect": [
+    {
+      "match": [],
+      "screens": [
+        "reportissue"
+      ],
+      "model": "reportissue"
+    }
+  ]
 }
