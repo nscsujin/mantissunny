@@ -44,7 +44,7 @@
         }
       },
       "selector": ".button[value='Login']",
-      "control": "action.link"
+      "control": "action.button"
     },
     "islogin": {
       "type": "identifier",
