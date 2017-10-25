@@ -88,6 +88,11 @@
       "screens": [
         "viewissues"
       ]
+    },
+    {
+      "match": [],
+      "action": "isreportissuelink",
+      "model": "viewissues"
     }
   ]
 }
