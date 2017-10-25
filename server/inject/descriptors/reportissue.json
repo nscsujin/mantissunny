@@ -6,6 +6,14 @@
       "type": "select",
       "selector": "[name=\"category_id\"]",
       "control": "select"
+    },
+    "Description": {
+      "type": "string"
+    },
+    "Reproducibility": {
+      "type": "select",
+      "control": "select",
+      "selector": "[name=\"reproducibility\"]"
     }
   },
   "connect": []
