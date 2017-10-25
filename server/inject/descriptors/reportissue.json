@@ -13,7 +13,7 @@
     "Reproducibility": {
       "type": "select",
       "control": "select",
-      "selector": "[name=\"category_id\"]"
+      "selector": "[name=\"reproducibility\"]"
     },
     "isreportissue": {
       "type": "identifier",
