@@ -13,7 +13,7 @@
     "Reproducibility": {
       "type": "select",
       "control": "select",
-      "selector": "[name=\"reproducibility\"]"
+      "selector": "[name=\"category_id\"]"
     }
   },
   "connect": []
