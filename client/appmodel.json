@@ -113,6 +113,9 @@
       },
       "Description": {
         "type": "string"
+      },
+      "Reproducibility": {
+        "type": "select"
       }
     }
   }
