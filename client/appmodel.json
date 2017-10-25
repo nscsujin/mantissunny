@@ -100,5 +100,14 @@
     "type": "object",
     "comment": "",
     "properties": {}
+  },
+  "reportissue": {
+    "type": "object",
+    "comment": "",
+    "properties": {
+      "Category": {
+        "type": "select"
+      }
+    }
   }
 }
