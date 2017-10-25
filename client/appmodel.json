@@ -96,41 +96,6 @@
       }
     }
   },
-  "viewtest": {
-    "type": "object",
-    "comment": "",
-    "properties": {
-      "testlist": {
-        "type": "array",
-        "items": {
-          "type": "object",
-          "properties": {
-            "ID": {
-              "type": "string",
-              "update": {
-                "type": "none"
-              }
-            },
-            "Status": {
-              "type": "string",
-              "update": {
-                "type": "none"
-              }
-            },
-            "Summary": {
-              "type": "string",
-              "update": {
-                "type": "none"
-              }
-            }
-          }
-        },
-        "update": {
-          "type": "none"
-        }
-      }
-    }
-  },
   "reviewlist2": {
     "type": "object",
     "comment": "",
