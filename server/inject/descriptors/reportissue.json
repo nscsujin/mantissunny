@@ -13,13 +13,5 @@
       "control": "select"
     }
   },
-  "connect": [
-    {
-      "match": [],
-      "screens": [
-        "reportissue"
-      ],
-      "model": "reportissue"
-    }
-  ]
+  "connect": []
 }
