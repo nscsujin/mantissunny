@@ -1,1 +1,18 @@
-{}
+{
+  "Category": {
+    "options": [
+      {
+        "label": "select1",
+        "value": "1"
+      },
+      {
+        "label": "select2",
+        "value": "2"
+      },
+      {
+        "label": "select3",
+        "value": "3"
+      }
+    ]
+  }
+}
