@@ -3,13 +3,13 @@
   "properties": {
     "search": {
       "type": "string",
-      "selector": "..s-manhattan-index",
+      "selector": "#kw",
       "control": "property.innerText"
     },
     "searchbutton": {
       "type": "action",
-      "selector": "..s-manhattan-index",
-      "control": "property.innerText"
+      "selector": "#su",
+      "control": "action.button"
     }
   },
   "connect": []
