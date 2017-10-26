@@ -14,7 +14,7 @@
     "islinktophoto": {
       "type": "action",
       "control": "action.link",
-      "selector": "a[href*='']"
+      "selector": "a[href*='http://www.baidu.com/']"
     }
   },
   "connect": []
