@@ -17,5 +17,11 @@
       "selector": "a[href*='http://www.baidu.com/']"
     }
   },
-  "connect": []
+  "connect": [
+    {
+      "match": [],
+      "action": "islinktophoto",
+      "model": "baidulogin"
+    }
+  ]
 }
