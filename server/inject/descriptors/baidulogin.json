@@ -10,6 +10,11 @@
       "type": "action",
       "selector": "#su",
       "control": "action.button"
+    },
+    "islinktophoto": {
+      "type": "action",
+      "control": "action.link",
+      "selector": "a"
     }
   },
   "connect": []
