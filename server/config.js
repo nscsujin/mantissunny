@@ -1,7 +1,7 @@
 'use strict';
 module.exports = {
     // Start URL that browsing should start at.
-    startURL: 'https://www.w3schools.com http://jqueryui.com/demos/',
+    startURL: 'https://chinaltp.hkd.flextronics.com/powerhr2000.net/Loginx.aspx',
     // Start Method when there is no start URL.  This is fpr when we are doing an API integration,
     // and we don't actually need to load phantom (yet).
     // startMethod: "login.onStart",
