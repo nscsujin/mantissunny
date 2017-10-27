@@ -23,7 +23,7 @@
           "submit"
         ]
       },
-      "selector": "[name=\"password\"]",
+      "selector": "#pwd",
       "control": "text"
     },
     "errorMessage": {
